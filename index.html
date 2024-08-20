@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        #container{
+            width: 800px;
+            height:800px;
+            border:solid 1px red;
+            margin: 20px auto;
+        }
+
+        #todo-list-container{
+           display: flex;
+           justify-content:space-between ;
+        }
+        .bucket{
+            width:200px;
+            height:800px;
+            border:solid 1px #ccc;
+            
+        }
+        .card{
+            width:200px;
+            height:100px;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 10px;
+            border: solid 1px green;
+        }
+    </style>
+</head>
+<body>
+  <div id="container">
+      <div id="searchBox">
+       <input type="text" name="" id="searchBoxInput">
+       <button type="submit" id="submit-searchbox">Submit</button>
+      </div>
+      <div id="todo-list-container">
+
+      </div>
+
+  </div>
+    
+
+    <script src="./data.js"></script>
+</body>
+</html>
